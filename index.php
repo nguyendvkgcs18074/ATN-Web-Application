@@ -7,10 +7,10 @@ function alert($msg) {
 ?>
 <html>
 <head>
+  <link rel="stylesheet" href="D:\School\Cloud Computing\ATN-Web-Application\style.css">
   <title>ATN Web Application</title>
 </head>
   <body>
-    <link rel="stylesheet" href="D:\School\Cloud Computing\ATN-Web-Application\style.css">
     <div class="hero-image">
     <div class="hero-text">
       <h1>Welcome To ATN Web Application</h1>
