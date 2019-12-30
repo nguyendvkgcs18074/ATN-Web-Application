@@ -18,6 +18,5 @@ function alert($msg) {
       <button>Get Started</button>
     </div>
   </div>
-
-    </div>
+</div>
   </body>
