@@ -5,7 +5,7 @@
 <h1>ATN Web Application</h1>
 
 <?php
-echo "Welcome";
+echo "Welcome to ATN Web Application";
 ?>
 
 </body>
