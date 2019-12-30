@@ -7,7 +7,6 @@ function alert($msg) {
 ?>
 <html>
 <head>
-  <link rel="stylesheet" href="D:\School\Cloud Computing\ATN-Web-Application\style.css">
   <title>ATN Web Application</title>
 </head>
   <body>
@@ -18,6 +17,5 @@ function alert($msg) {
       <button>Get Started</button>
     </div>
   </div>
-
-    </div>
+</div>
   </body>
