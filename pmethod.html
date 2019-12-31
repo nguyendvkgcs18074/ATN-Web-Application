@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Zed's</title>
+	<meta charset="utf-8">
+<body>
+
+	<div id="container">
+
+
+	<header>
+<a href="home.html"><img src="images/logo.png" alt="Logo"> </a>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="products.html">Products</a></li>
+			<li><a href="pmethod.html">Payment Method</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="cart.html"> Cart</a></li>
+		</ul>
+	</nav>
+
+		<img src="images/PMB.jpg" class="banner">
+	</div>
+
+	<main>
+		<p>We accept card payment (VISA, MasterCard)</p>
+		<form method="post" action="submit.html">
+			<p><label for="fname">First Name:</label>
+			<input type="text" id="fname" name="fname"></p>
+			<p><label for="lname">Last Name:</label>
+			<input type="text" id="lname" name="lname"></p>
+
+			<p><label for="email">Email:</label>
+			<input type="email" id="email" name="email"></p>
+
+			<p><label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone"></p>
+			<p><label for="questions">Address</label>
+			<textarea id="questions" name="questions" rows="3" cols="25"></textarea></p>
+			<p><label for="reference">Choose a credit card provider</label>
+			<select name="reference" id="reference">
+				<option value="friend">VISA</option>
+				<option value="google">MasterCard</option></p>
+			</select>
+			<p><label for="Cardnumber">Card Number:</label>
+				<input type="Cardnumber" id="Cardnumber" name="Card Number"></p>
+				<p><label for="ExpDate">Exp Date:</label>
+					<input type="ExpDate" id="Expdate" name="Expdate"></p>
+					<p><label for="CVV">CVV:</label>
+						<input type="CVV" id="CVV" name="CVV"></p>
+			<input type="submit" id="submit" value="Submit" class="btn">
+			<input type="reset" id="reset" value="Reset Form" class="btn">
+		</form>
+	</main>
+
+	<footer>
+		<div id="copyright">
+		<p>&copy; Copyright 2019. All Rights Reserved. <br>
+		<a href="mailto:Zedtech.net" class="contact">Zedtech.net</a></p>
+		</div>
+
+		<div id="social">
+		<p>Connect with us:</p>
+		<p><a href="https://www.facebook.com/"><img src="images/fblogo.png" alt="facebook logo"></a>
+
+		<a href="https://twitter.com/"><img src="images/twitterlogo.png" alt="twitter logo"></a></p>
+		</div>
+	</footer>
+
+	</div>
+
+</body>
+</html>

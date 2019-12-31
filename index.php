@@ -1,5 +1,5 @@
 <?php
-alert("Welcome to ATN Web Application");
+alert("Welcome");
 
 function alert($msg) {
     echo "<script type='text/javascript'>alert('$msg');</script>";
@@ -30,14 +30,14 @@ body, html {
 
 </style>
 <head>
-  <title>ATN Web Application</title>
+  <title>Zed's Tech</title>
 </head>
   <body>
     <div class="hero-image">
     <div class="hero-text">
-      <h1>Welcome To ATN Web Application</h1>
-      <p>This Application belongs to ATN Company</p>
-      <button>Get Started</button>
+      <h1>Welcome To Zed's</h1>
+      <p>Click Get Started to know more!</p>
+    <a href="home.html"><button>Get Started</button></a>
     </div>
   </div>
 </div>
